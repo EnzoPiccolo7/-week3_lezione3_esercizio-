@@ -1,0 +1,33 @@
+body div {
+    margin-top: 10rem;
+    margin-right: 100%;
+    margin-left: 10rem;
+    border: 5px rgb(210, 23, 23) solid;
+    padding-left: 2rem;
+    width: 1400px;
+    height: 600px;
+}
+H1 {
+    text-align: center;
+}
+div input {
+    font-size: 1.3rem;
+}
+div button {
+    font-size: 1.2rem;
+    width: 97.4%;
+    margin-top: 1rem;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 71%); 
+    color: white;
+}
+aside input {
+    width: 4srem;
+}
+aside button {
+    width: 4rem;
+}
+aside p {
+    font-size: 2rem;
+    text-align: center;
+}

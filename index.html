@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div>
+        <h1>REGISTRATI</h1>
+        <input type="text" id="nome"  placeholder="Inserisci il tuo nome" required>
+        <input type="text" id="cognome"  placeholder="inserisci il tuo cognome"required>
+        <input type="text" id="eta"  placeholder="inesrisci la tua età"required>
+        <input type="text" id="citta" placeholder="inserisci la tua città"required>
+        <button type="submit" id="invia" onclick="invia()">Invia</button>
+        <p>NOME : <span id="risnome"></span></p>
+        <p>COGNOME : <span id="riscognome"></span></p>
+        <p>ETA' : <span id="riseta"></span></p>
+        <p>CITTA' : <span id="riscitta"></span></p>
+        <p>PENSIONE TRA : <span id="pensione"></span> ANNI</p>
+        <hr>
+        <aside>
+            <p>CALCOLATRICE</p>
+            <input type="text" id="numero1" >
+            <button type="submit" id="piu" onclick="piu()">+</button>
+            <button type="submit" id="meno" onclick="meno()" >-</button>
+            <button type="submit" id="per" onclick="per()" >*</button>
+            <button type="submit" id="diviso" onclick="diviso()" >/</button>
+            <input type="text" id="numero2" >
+            <button type="submit" id="risultato" onclick="calcolatrice()"></button>
+            <p id="risultatotutto"></p>
+        </aside>
+    </div>
+
+     <script src="js/script.js"></script>
+</body>
+</html>
