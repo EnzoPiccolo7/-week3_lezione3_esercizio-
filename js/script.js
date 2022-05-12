@@ -24,16 +24,12 @@ function stampa() {
 
 let num1;
 let num2;
-let add;
 
 function piu(){
-    num1 = Document.getElementById('numero1').value
-    num2 = Document.getElementById('numero2').value
-    
-    let add = num1 +num2;
-    
-    
-
+    num1 = Document.getElementById('numero1').value;
+    num2 = Document.getElementById('numero2').value;
+    stampavalore();
+    return(num1,num2);
 }
 function meno(){
 
@@ -45,6 +41,7 @@ function diviso(){
 
 }
 
-function calcolatrice(){
-
+function stampavalore(){
+    let add = (+num1) + (+num2);
+document.getElementById("risultatotutto").innerHTML = add;
 }
